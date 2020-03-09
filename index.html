@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width">
+    <!-- Bootstrap CSS -->
+   	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+ <div class="container-md">
+ 	<div class="row">
+ 		<div class="col"> 
+			<header>
+				<div class="header">
+					<div class="header__img_bg" src="img/bg.png">
+					<div class="header__img_bg_gradient"></div>
+					<p class="header__elem_text_S10">S10</p>
+				</div>
+			</header>
+
+			<nav>
+					<div class="nav">
+						<img id="nav__elem_img_doorkeeper" src="img/doorkeeper_s10.png" alt="">
+						<p class="nav__elem_text_title">lets your guests in</p>
+						<p class="nav__elem_text_p_door">doorkeeper</p>
+					</div>
+			</nav>
+
+			<article>
+				<div class="menu">
+					<ul class="md flex ">
+							<li class="menu_link"><a href="inde1.html"><p style="color:white">Overview</p></a></li>
+							<li class="menu_link"><a href="indexx.html"><p style="color:white">How its works</p></a></li>
+							<li class="menu_link "><a href="indexV2.html"><p style="color:white">Technical data</p></a></li>
+							<li class="menu_link"><p style="color:white">Payments</p></li>
+					</ul>
+				</div>
+
+				<div class="wrapper">
+		        <input type="checkbox" id="check-menu">
+		        <label for="check-menu">Menu</label>
+		        <div class="burger-line first"></div>
+		        <div class="burger-line second"></div>
+		        <div class="burger-line third"></div>
+		        <div class="burger-line fourth"></div>
+		        <div class="main-menu">
+		            <a href="#">Overview</a>
+		            <a href="#">How its works</a>
+		            <a href="#">Technical data</a>
+		            <a href="#">Payments</a>
+		            
+		        </div>
+		   		 </div>
+			</article>
+	
+			<aside>
+				<ul class="aside row">	
+					<li id="aside__elem_one_bg"></li>
+					<li id="aside__elem_one_bg_2"  onClickonclick="Go()"></li>
+					<li id="aside__elem_one_bg_3" onClickonclick="Got()"></li>
+					<li id="aside__elem_one_bg_4"></li>
+						
+				</ul>
+			</aside>
+			
+			<footer>
+				<div class="footer">
+					<div class="footer__elem_text">
+						<p class="footer__elem_text_Become">Become dealer</p>
+						<p class="footer__elem_text_linev1"></p>
+						<p class="footer__elem_text_Request">Request a test</p>
+						<p class="footer__elem_text_linev2"></p>
+					</div>
+
+					<div class="footer__elem_photo flex md row">
+						<img class="footer__elem_photo_2 photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlmoT80gbJ7CD1OItHx63nY_KM8_6uoMbyimXHqADXwSINpmeY" alt ="">
+						<img class="footer__elem_photo_3 photo" src="https://picjumbo.com/wp-content/uploads/skogafoss-waterfall-free-photo-1080x720.jpg" alt ="">
+						<img class="footer__elem_photo_4 photo" src="https://picjumbo.com/wp-content/uploads/vintage-brown-bricks-wall-pattern-2210x1473.jpg	" alt ="">
+						<img class="footer__elem_photo_5 photo" src="https://picjumbo.com/wp-content/uploads/DJI-0004-2210x1655.jpg" alt ="">
+						<img class="footer__elem_photo_6 photo" src="https://picjumbo.com/wp-content/uploads/wood-texture-diagonal-2210x1473.jpg" alt ="">
+						<img class="footer__elem_photo_1 photo" src="img/bg.png" alt ="">
+						
+					</div>
+
+				<div class="footer__elem_button_all"> 
+					<div class="footer__elem_button">
+						<button class="footer__elem_button_bg col">Buy now</button>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+	</footer>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="script.js">
+
+	</script>
+
+	<script>
+			function Go() {
+   document.getElementById('scr').src=(document.getElementById('aside__elem_one_bg_2').checked)? 'http://javascript.ru/forum/images/smilies/laugh.gif': 'http://javascript.ru/forum/images/smilies/blink.gif' 
+}
+
+const photos = document.querySelectorAll(".photo")
+for (const photo of photos) {
+  photo.addEventListener('click', function(event) {
+  console.log(photo.src)
+	document.querySelector('.header__img_bg').style.backgroundImage = 'url("' + photo.src + '")';
+  })
+}
+
+
+	</script>
+
+	
+</body>
+</html>
