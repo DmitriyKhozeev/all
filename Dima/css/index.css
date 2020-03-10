@@ -1,0 +1,1394 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+img{
+    height: auto;
+}
+aside{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 1490px;
+    align-content: flex;
+    justify-content: center;
+}
+.wrapper{
+    margin-top: -670px;
+    width: 120px;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-family: 'Arial';
+}
+
+#check-menu{
+    display: none;
+}
+
+label{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+@media (max-width: 1085px) {
+}
+
+.burger-line{
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: .5s all;
+}
+.main-menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+}
+
+a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background: #2D324F;
+    box-shadow: 0px 4px 10px rgba(0, 147, 221, 0.45);
+    border-radius: 5px;
+}
+
+a:hover{
+    background: #2D324F;
+    box-shadow: 0px 4px 10px rgba(0, 147, 221, 0.45);
+    border-radius: 5px;
+}
+
+#check-menu:checked ~ .main-menu{
+    max-height: 500px;
+    font-size: 16px;
+}
+
+#check-menu:checked ~ .first{
+    display: none;
+}
+
+#check-menu:checked menu-wrap~ .second{
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+}
+
+#check-menu:checked ~ .fourth{
+    display: none;
+}
+
+@media only screen and (max-width: 1199px) and (max-height: 731px){
+    .wrapper.{
+        display: none;
+    }
+    .menu_link1 {
+        display: none;
+    }
+    .menu_link2 {
+         display: none;
+     }
+    .menu_link3 {
+        display: none;
+    }
+    .menu_link4 {
+        display: none;
+    }
+    #article__menu1_bg {
+        display: none;
+    }
+    #article__menu2_bg {
+        display: none;
+    }
+    #article__menu3_bg {
+        display: none;
+    }
+    #article__menu4_bg {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1199px) and (max-height: 731px) {
+    .trigger2 {
+    margin-left: -200px;
+    }
+    .aside__planet{
+        margin-left: -200px;
+    }
+    .trigger3{
+        margin-left: -150px;
+    }
+    .aside__text_h1{
+        left: -300px;
+    }
+}
+@media only screen and (max-width: 1199px) and (max-height: 731px) {
+    .aside_text1_div{
+        margin-left: -200px;
+    }
+    .aside_text2_div{
+        margin-left: -200px;
+    }
+    .aside_text3_div{
+        margin-left: -200px;
+    }
+    .aside_text4_div{
+        margin-left: -200px;
+    }
+    .aside_text5_div{
+        margin-left: -200px;
+    }
+    .aside_text6_div{
+        margin-left: -170px;
+    }
+    .aside_text7_div{
+        margin-left: -170px;
+    }
+    .aside_text8_div{
+        margin-left: -170px;
+    }
+    .aside_text9_div{
+        margin-left: -170px;
+    }
+    .aside_text10_div{
+        margin-left: -180px;
+    }
+    .aside_text11_div{
+        margin-left: -180px;
+    }
+    .text__footer_Become_dealer1{
+        margin-left: 80px;
+    }
+    .line1{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 992px) and (max-height: 731px) {
+    .trigger2{
+        margin-left:-300px;
+    }
+    .wrapper{
+        margin-left:-140px;
+    }
+    .aside__planet{
+        margin-left:-320px;
+    }
+    .trigger3{
+        margin-left:-320px;
+    }
+    .aside_text1_div{
+        margin-left: -320px;
+    }
+    .aside_text2_div{
+        margin-left: -320px;
+    }
+    .aside_text3_div{
+        margin-left: -320px;
+    }
+    .aside_text4_div{
+        margin-left: -320px;
+    }
+    .aside_text5_div{
+        margin-left: -320px;
+    }
+    .aside_text6_div{
+        margin-left: -320px;
+    }
+    .aside_text7_div{
+        margin-left: -320px;
+    }
+    .aside_text8_div{
+        margin-left: -320px;
+    }
+    .aside_text9_div{
+        margin-left: -320px;
+    }
+    .aside_text10_div{
+        margin-left: -320px;
+    }
+    .aside_text11_div{
+        margin-left: -320px;
+    }
+    .text__footer_Become_dealer1{
+        margin-left: -50px;
+    }
+    .line1{
+        margin-left:-50px;
+    }
+    .text__footer_Request_a_test1{
+        margin-left:-120px;
+    }
+    .line2{
+        margin-left:-120px;
+    }
+}
+.header__img_bg{
+    margin-left: -130px;
+    height: 100vh;
+    min-width: 1368px;
+    background: url(bg.png);
+    background-size: cover;
+}
+.header__img_bg_gradient{
+    background: linear-gradient(180deg, rgba(45, 50, 79, 0.8) 0%, rgba(0, 147, 221, 0.72) 100%);
+    width: 100%;
+    height: 100%;
+}
+#article__menu1_bg{
+    position: absolute;
+    width: 227px;
+    height: 45px;
+    margin-left: -50px;
+    margin-top: 150px;
+    background: #2D324F;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 147, 221, 0.45);
+    border-radius: 5px
+}
+#article__menu2_bg{
+    position: absolute;
+    width: 227px;
+    height: 45px;
+    margin-left: -50px;
+    margin-top: 205px;
+    background: #2D324F;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 147, 221, 0.45);
+    border-radius: 5px;
+}
+#article__menu3_bg{
+    position: absolute;
+    width: 227px;
+    height: 45px;
+    margin-left: -50px;
+    margin-top: 261px;
+    background: #2D324F;
+    box-shadow: 0px 4px 10px rgba(0, 147, 221, 0.45);
+    border-radius: 5px;
+}
+#article__menu4_bg{
+    position: absolute;
+    width: 227px;
+    height: 45px;
+    margin-left: -50px;
+    margin-top: 317px;
+    background: #2D324F;
+    box-shadow: 0px 4px 10px rgba(0, 147, 221, 0.45);
+    border-radius: 5px;
+}
+.menu_link1{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 205px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    z-index: 1;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.menu_link2{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 258px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    z-index: 1;
+    text-decoration: none;
+}
+.menu_link3{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 314px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    z-index: 1;
+    text-decoration: none;
+}
+.menu_link4{
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 370px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    z-index: 1;
+    text-decoration: none;
+}
+.trigger{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 34px;
+    height: 24px;
+    margin-top: 240px;
+    margin-left: 250px;
+}
+#trigger1{
+    display: flex;
+    width: 34px;
+    height: 24px;
+    margin-left: 1040px;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+.aside__photo_plane{
+    display: flex;
+     margin-left: 353px;
+     margin-top: -200px;
+ }
+.aside__text_h1{
+    margin-left: 373px;
+    margin-top: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.aside__text_price{
+    margin-left: 570px;
+    margin-top: -90px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.aside__text__number_price{
+    margin-left: 570px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.aside__text__sale{
+    margin-left: 570px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.aside__text__sale_Decision{
+    margin-left: 570px;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.aside__text_Several_locations{
+    margin-left: 670px;
+    margin-top: -110px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.aside__text__Several_locations_Decision{
+    margin-left: 670px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.aside__text_Mass {
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.aside__text__Mass_kg{
+    margin-left: 670px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.aside__text_Powered_by{
+    margin-left: 860px;
+    margin-top: -114px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.aside__text_Power_socket{
+    margin-left: 860px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.text__footer_Become_dealer{
+    display: flex;
+    margin-left: -60px;
+     margin-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    flex-direction: column-reverse;
+}
+@media (max-width: 1145px){
+    .article__menu {
+        display: none;
+    }
+    .main-menu{
+        display: block;
+        width: 100%;
+        bottom: -55px;
+        left: 0;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+    }
+}
+.text__footer_Request_a_test{
+    display: flex;
+    margin-left: 178px;
+    margin-top: -30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    flex-direction: column-reverse;
+}
+.line_one{
+    display: flex;
+    width: 114px;
+    height: 0px;
+    margin-left: -60px;
+    margin-top: -13px;
+    border: 2px solid rgba(242, 242, 242, 0.5);
+    flex-direction: column-reverse;
+}
+.line_two{
+    display: flex;
+    width: 114px;
+    height: 0px;
+    margin-left: 178px;
+    margin-top: -4px;
+    border: 2px solid rgba(242, 242, 242, 0.5);
+    flex-direction: column-reverse;
+}
+
+
+/* Galaxy S5 */
+@media only screen and (max-width: 360px) and (max-height: 640px) {
+    .header__img_bg{
+        width: 1540px;
+        height:2363px;
+    }
+    .header__img_bg_gradient{
+        width: 1540px;
+        height:2363px;
+    }
+    .trigger2{
+        margin-left: -60px;
+        margin-top: -800px;
+    }
+    .trigger3{
+        margin-left: 90px;
+        margin-top: 1px;
+    }
+    .aside__photo_plane{
+        margin-left:680px;
+        height: 300px;
+        width:950px;
+    }
+    .aside__text_h1{
+        margin-left:695px;
+        margin-top: 60px;
+
+    }
+    .aside__text_price{
+        margin-left:885px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside__text__number_price{
+        margin-left:885px;
+        margin-top: 15px;
+    }
+    .aside__text__sale{
+        margin-left:885px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside__text__sale_Decision{
+        margin-left:885px;
+        margin-top: 1px;
+    }
+    .aside__text_Several_locations{
+        margin-top: -140px;
+        margin-left:1015px;
+        white-space: nowrap;
+    }
+    .aside__text__Several_locations_Decision{
+        margin-top: 15px;
+        margin-left:1015px;
+    }
+    .aside__text_Mass{
+        margin-top: 15px;
+        margin-left:1015px;
+    }
+    .aside__text__Mass_kg{
+        margin-top: 65px;
+        margin-left:1015px;
+        white-space: nowrap;
+    }
+    .aside__text_Powered_by{
+        margin-left:1205px;
+        white-space: nowrap;
+        margin-top: -140px;
+    }
+    .aside__text_Power_socket{
+        margin-left:1205px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 800px;
+        margin-left: 100px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -30px;
+        margin-left: 350px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 50px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+}
+/* Pixel 2 */
+@media only screen and (max-width: 411px) and (max-height: 731px) {
+    .header__img_bg{
+        width: 1140px;
+        height:2343px;
+    }
+    .header__img_bg_gradient{
+        width: 1370px;
+        height:2363px;
+    }
+    .trigger2{
+        margin-left: -60px;
+        margin-top: -1100px;
+    }
+    .trigger3{
+        margin-left: -30px;
+        margin-top: 1px;
+    }
+    .aside__photo_plane{
+        margin-left:630px;
+        height: 300px;
+        width:950px;
+    }
+    .aside__text_h1{
+        margin-left:665px;
+        margin-top: 50px;
+    }
+    .aside__text_price{
+        margin-left:865px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside__text__number_price{
+        margin-left:865px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .aside__text__sale{
+        margin-left:865px;
+        margin-top: 25px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .aside__text__sale_Decision{
+        margin-left:865px;
+        font-size: 20px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside__text_Several_locations{
+        margin-top: -150px;
+        margin-left:965px;
+        white-space: nowrap;
+    }
+    .aside__text__Several_locations_Decision{
+        margin-top: 15px;
+        margin-left:965px;
+    }
+    .aside__text_Mass{
+        margin-top: 15px;
+        margin-left:965px;
+    }
+    .aside__text__Mass_kg{
+        margin-top: 75px;
+        margin-left:965px;
+        white-space: nowrap;
+    }
+    .aside__text_Powered_by{
+        margin-left:1145px;
+        white-space: nowrap;
+        margin-top: -155px;
+    }
+    .aside__text_Power_socket{
+        margin-left:1145px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 600px;
+        margin-left: 100px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -30px;
+        margin-left: 350px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 50px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+}
+/* Pixel 2 */
+@media only screen and (max-width: 411px) and (max-height: 823px) {
+    .header__img_bg{
+        width: 1710px;
+        height:2343px;
+    }
+    .header__img_bg_gradient{
+        width: 1710px;
+        height:2363px;
+    }
+    .trigger2{
+        margin-left: 30px;
+        margin-top: -700px;
+    }
+    .trigger3{
+        margin-left: 230px;
+        margin-top: 1px;
+    }
+    .aside__photo_plane{
+        margin-left:470px;
+        height: 300px;
+        width:1150px;
+    }
+    .aside__text_h1{
+        margin-left:505px;
+        margin-top: 50px;
+    }
+    .aside__text_price{
+        margin-left:705px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside__text__number_price{
+        margin-left:705px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .aside__text__sale{
+        margin-left:705px;
+        margin-top: 25px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .aside__text__sale_Decision{
+        margin-left:705px;
+        font-size: 20px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside__text_Several_locations{
+        margin-top: -150px;
+        margin-left:805px;
+        white-space: nowrap;
+    }
+    .aside__text__Several_locations_Decision{
+        margin-top: 15px;
+        margin-left:805px;
+    }
+    .aside__text_Mass{
+        margin-top: 15px;
+        margin-left:805px;
+    }
+    .aside__text__Mass_kg{
+        margin-top: 75px;
+        margin-left:805px;
+        white-space: nowrap;
+    }
+    .aside__text_Powered_by{
+        margin-left:985px;
+        white-space: nowrap;
+        margin-top: -155px;
+    }
+    .aside__text_Power_socket{
+        margin-left:985px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 700px;
+        margin-left: 40px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -30px;
+        margin-left: 230px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 50px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+    #article__menu1_bg{
+        display: none;
+    }
+    #article__menu2_bg{
+        display: none;
+    }
+    #article__menu3_bg{
+        display: none;
+    }
+    #article__menu4_bg{
+        display: none;
+    }
+    .menu_link3{
+        display: none;
+    }
+    .menu_link4{
+        display: none;
+    }
+    .menu_link2{
+        display: none;
+    }
+    .menu_link1{
+        display: none;
+    }
+}
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 375px) and (max-height: 667px) {
+    .header__img_bg{
+        width: 1605px;
+        height:2343px;
+    }
+    .header__img_bg_gradient{
+        width: 1605px;
+        height:2363px;
+    }
+    .trigger2{
+        margin-left: -20px;
+        margin-top: -700px;
+    }
+    .trigger3{
+        margin-left: 120px;
+        margin-top: 1px;
+    }
+    .aside__planet{
+        margin-top: 20px;
+        margin-left: -50px;
+        height: 300px;
+        width:650px;
+    }
+    .aside_text1_div{
+        margin-left:-175px;
+        margin-top: 50px;
+    }
+    .aside_text2_div{
+        margin-left:-165px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside_text3_div{
+        margin-left:-165px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .aside_text4_div{
+        margin-left:-165px;
+        margin-top: 25px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .aside_text5_div{
+        margin-left:-165px;
+        font-size: 20px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside_text6_div{
+        margin-top: -150px;
+        margin-left:-155px;
+        white-space: nowrap;
+    }
+    .aside_text7_div{
+        margin-top: 15px;
+        margin-left:-155px;
+    }
+    .aside_text8_div{
+        margin-top: 15px;
+        margin-left:-155px;
+    }
+    .aside_text9_div{
+        margin-top: 75px;
+        margin-left:-155px;
+        white-space: nowrap;
+    }
+    .aside_text10_div{
+        margin-left:-115px;
+        white-space: nowrap;
+        margin-top: -155px;
+    }
+    .aside_text11_div{
+        margin-left:-115px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 740px;
+        margin-left: 100px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -35px;
+        margin-left: 310px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 10px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+    #article__menu1_bg{
+        display: none;
+    }
+    #article__menu2_bg{
+        display: none;
+    }
+    #article__menu3_bg{
+        display: none;
+    }
+    #article__menu4_bg{
+        display: none;
+    }
+    .menu_link3{
+        display: none;
+    }
+    .menu_link4{
+        display: none;
+    }
+    .menu_link2{
+        display: none;
+    }
+    .menu_link1{
+        display: none;
+    }
+}
+/* Iphone 6/7/8(plus) */
+@media only screen and (max-width: 414px) and (max-height: 736px) {
+    .header__img_bg{
+        width: 1765px;
+        height:2373px;
+    }
+    .header__img_bg_gradient{
+        width: 1765px;
+        height:2373px;
+    }
+    .trigger2{
+        margin-left: 30px;
+        margin-top: -700px;
+    }
+    .trigger3{
+        margin-left: 260px;
+        margin-top: 1px;
+    }
+    .aside__photo_plane{
+        margin-top: -200px;
+        margin-left:500px;
+        height: 300px;
+        width:1150px;
+
+    }
+    .aside__text_h1{
+        margin-left:535px;
+        margin-top: 50px;
+    }
+    .aside__text_price{
+        margin-left:735px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside__text__number_price{
+        margin-left:735px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .aside__text__sale{
+        margin-left:735px;
+        margin-top: 25px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .aside__text__sale_Decision{
+        margin-left:735px;
+        font-size: 20px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside__text_Several_locations{
+        margin-top: -150px;
+        margin-left:835px;
+        white-space: nowrap;
+    }
+    .aside__text__Several_locations_Decision{
+        margin-top: 15px;
+        margin-left:835px;
+    }
+    .aside__text_Mass{
+        margin-top: 15px;
+        margin-left:835px;
+    }
+    .aside__text__Mass_kg{
+        margin-top: 75px;
+        margin-left:835px;
+        white-space: nowrap;
+    }
+    .aside__text_Powered_by{
+        margin-left:1015px;
+        white-space: nowrap;
+        margin-top: -155px;
+    }
+    .aside__text_Power_socket{
+        margin-left:1015px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 740px;
+        margin-left: 50px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -35px;
+        margin-left: 190px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 10px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+    #article__menu1_bg{
+        display: none;
+    }
+    #article__menu2_bg{
+        display: none;
+    }
+    #article__menu3_bg{
+        display: none;
+    }
+    #article__menu4_bg{
+        display: none;
+    }
+    .menu_link3{
+        display: none;
+    }
+    .menu_link4{
+        display: none;
+    }
+    .menu_link2{
+        display: none;
+    }
+    .menu_link1{
+        display: none;
+    }
+}
+/* Iphone X */
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+    .header__img_bg{
+        width: 1610px;
+        height:2343px;
+    }
+    .header__img_bg_gradient{
+        width: 1610px;
+        height:2363px;
+    }
+    .trigger2{
+        margin-left: -80px;
+        margin-top: -700px;
+    }
+    .trigger3{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    .aside__photo_plane{
+        margin-top: -200px;
+        margin-left:400px;
+        height: 300px;
+        width:1150px;
+
+    }
+    .aside__text_h1{
+        margin-left:435px;
+        margin-top: 50px;
+    }
+    .aside__text_price{
+        margin-left:635px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside__text__number_price{
+        margin-left:635px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .aside__text__sale{
+        margin-left:635px;
+        margin-top: 25px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .aside__text__sale_Decision{
+        margin-left:635px;
+        font-size: 20px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside__text_Several_locations{
+        margin-top: -150px;
+        margin-left:735px;
+        white-space: nowrap;
+    }
+    .aside__text__Several_locations_Decision{
+        margin-top: 15px;
+        margin-left:735px;
+    }
+    .aside__text_Mass{
+        margin-top: 15px;
+        margin-left:735px;
+    }
+    .aside__text__Mass_kg{
+        margin-top: 75px;
+        margin-left:735px;
+        white-space: nowrap;
+    }
+    .aside__text_Powered_by{
+        margin-left:915px;
+        white-space: nowrap;
+        margin-top: -155px;
+    }
+    .aside__text_Power_socket{
+        margin-left:915px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 740px;
+        margin-left: 40px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -35px;
+        margin-left: 200px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 10px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+    #article__menu1_bg{
+        display: none;
+    }
+    #article__menu2_bg{
+        display: none;
+    }
+    #article__menu3_bg{
+        display: none;
+    }
+    #article__menu4_bg{
+        display: none;
+    }
+    .menu_link3{
+        display: none;
+    }
+    .menu_link4{
+        display: none;
+    }
+    .menu_link2{
+        display: none;
+    }
+    .menu_link1{
+        display: none;
+    }
+}
+/* Iphone 6/7/8(plus) */
+@media only screen and (max-width: 414px) and (max-height: 736px) {
+    .header__img_bg{
+        width: 1765px;
+        height:2373px;
+    }
+    .header__img_bg_gradient{
+        width: 1765px;
+        height:2373px;
+    }
+    .trigger2{
+        margin-left: 30px;
+        margin-top: -700px;
+    }
+    .trigger3{
+        margin-left: 260px;
+        margin-top: 1px;
+    }
+    .aside__photo_plane{
+        margin-top: -200px;
+        margin-left:500px;
+        height: 300px;
+        width:1150px;
+
+    }
+    .aside__text_h1{
+        margin-left:535px;
+        margin-top: 50px;
+    }
+    .aside__text_price{
+        margin-left:735px;
+        margin-top: -80px;
+        font-size: 20px;
+    }
+    .aside__text__number_price{
+        margin-left:735px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .aside__text__sale{
+        margin-left:735px;
+        margin-top: 25px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .aside__text__sale_Decision{
+        margin-left:735px;
+        font-size: 20px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    .aside__text_Several_locations{
+        margin-top: -150px;
+        margin-left:835px;
+        white-space: nowrap;
+    }
+    .aside__text__Several_locations_Decision{
+        margin-top: 15px;
+        margin-left:835px;
+    }
+    .aside__text_Mass{
+        margin-top: 15px;
+        margin-left:835px;
+    }
+    .aside__text__Mass_kg{
+        margin-top: 75px;
+        margin-left:835px;
+        white-space: nowrap;
+    }
+    .aside__text_Powered_by{
+        margin-left:1015px;
+        white-space: nowrap;
+        margin-top: -155px;
+    }
+    .aside__text_Power_socket{
+        margin-left:1015px;
+        white-space: nowrap;
+        margin-top: 15px;
+    }
+    .text__footer_Become_dealer{
+        margin-top: 740px;
+        margin-left: 50px;
+    }
+    .text__footer_Request_a_test{
+        margin-top: -35px;
+        margin-left: 190px;
+        white-space: nowrap;
+    }
+    .line1{
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+    .line2{
+        margin-top: 1px;
+        margin-left: 10px;
+    }
+    label{
+        margin-top: -1500px;
+        margin-left: 200px;
+        font-size: 40px;
+    }
+    #article__menu1_bg{
+        display: none;
+    }
+    #article__menu2_bg{
+        display: none;
+    }
+    #article__menu3_bg{
+        display: none;
+    }
+    #article__menu4_bg{
+        display: none;
+    }
+    .menu_link3{
+        display: none;
+    }
+    .menu_link4{
+        display: none;
+    }
+    .menu_link2{
+        display: none;
+    }
+    .menu_link1{
+        display: none;
+    }
+}
+
+
